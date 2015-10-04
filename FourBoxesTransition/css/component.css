@@ -25,6 +25,11 @@ html, body, .container {
 	z-index: 0;
 	-webkit-perspective: 1200px;
 	perspective: 1200px;
+    -webkit-filter: brightness(.3);
+    -moz-filter: brightness(.3);
+    -ms-filter: brightness(.3);
+    -o-filter: brightness(.3);
+    filter: brightness(.3);
 }
 
 .bg-tile {
@@ -46,12 +51,14 @@ html, body, .container {
 	width: 100%;
 	height: 100%;
 	background: #999;
+    filter: brightness(0.5);
 }
 
 .bg-img img {
 	position: absolute;
 	display: block;
 	height: 200%;
+
 }
 
 @media screen and (min-aspect-ratio: 1280/850) {
