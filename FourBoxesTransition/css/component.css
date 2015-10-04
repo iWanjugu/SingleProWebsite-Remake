@@ -117,7 +117,7 @@ html, body, .container {
 	width: 3px;
 	height: 50%;
 	outline: 1px solid transparent;
-	background: #dbccd0;
+	background: #2da2c8;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
