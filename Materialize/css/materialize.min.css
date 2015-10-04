@@ -17,9 +17,14 @@
 
 
      /**** OVERIDES ****/
-
+/** Nav Bar **/
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 0px;
     line-height: 0px;
     background-color: transparent;
+}
+
+/** Container Width **/
+.container {
+    width: 90%;
 }

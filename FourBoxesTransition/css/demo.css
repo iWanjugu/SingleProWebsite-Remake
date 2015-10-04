@@ -69,29 +69,60 @@ section {
 /* To Navigation Style */
 .codrops-top {
 	width: 100%;
-	text-transform: uppercase;
 	font-weight: 400;
-	font-size: 0.69em;
 	line-height: 2.2;
 	position: relative;
 	z-index: 2000;
+    /** Nav bar editings **/
+    margin-top: 30px;
+    display: inline-block;
 }
 
 .codrops-top a {
 	display: inline-block;
-	padding: 0.3em 0.7em;
+	padding: 0.2em 0.5em;
 	text-decoration: none;
 	letter-spacing: 1px;
 	margin: 5px;
 }
 
+.codrops-icon-prev {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #2da2c8;
+}
+
+.codrops-icon-prev span {
+    font-size:;
+    color: white;
+}
+
 .codrops-top span.right {
 	float: right;
+    text-transform: uppercase;
+    height: 55px;
+    padding-top: 10px;
+    font-size: .9em;
+
 }
 
 .codrops-top span.right a {
 	display: block;
 	float: left;
+    color: white;
+    font-weight: bold;
+
+}
+.codrops-top span.right a .home {
+	display: block;
+	float: left;
+    color: #2da2c8;
+    height: 30px;
+}
+
+.codrops-top span.right a span {
+/*    height: 30px;*/
+    margin: 3px;
 }
 
 .codrops-icon:before {
